@@ -61,34 +61,38 @@ const Home: NextPage = ({ body }: any) => {
                             className="w-[8rem] h-[8rem] rounded-md"
                             alt="UwU"
                         />
-                        <div className="ml-6 flex flex-col items-start justify-center font-mono text-white ">
-                            <p className="text-xl mb-2">Samomen</p>
+                        <div className="ml-4 flex flex-col items-start justify-center font-mono text-white ">
+                            <p className="md:text-xl">Samomen</p>
                             <p className="text-l">Web Developer I'm improving myself on Cyber Security and Game Development</p>
-                            <p className="text-l mt-3 italic">Listening to {data.spotify.song}</p>
+                            
                         </div>
                     </div>
                     <div className="mt-3 w-full flex flex-row items-center justify-center h-[rem] gap-4 ">
                     <a
                         href="https://github.com/SamomenX"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <AiOutlineGithub className="w-8 h-8"/>
                     </a>
                     <a
-                        href="https://github.com/SamomenX"
+                        href="https://twitter.com/SamomenX"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <AiOutlineTwitter className="w-8 h-8"/>
                     </a>
                     <a
-                        href="https://github.com/SamomenX"
+                        href="https://new.reddit.com/user/GodSamomen"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <AiOutlineReddit className="w-8 h-8"/>
                     </a>
                     <a
-                        href="https://github.com/SamomenX"
+                        href="mailto:uwu@red-panda.ninja"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <AiOutlineMail className="w-8 h-8"/>
                     </a>
