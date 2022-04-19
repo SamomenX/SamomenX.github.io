@@ -5,7 +5,7 @@ export const GitHubButton = () => {
         <motion.a
             href="https://github.com/SamomenX"
             target="_blank"
-            className="px-6 py-2 bg-indigo-900 hover:bg-gray-800 text-white text-lg font-normal flex items-center justify-center rounded-md mt-7"
+            className="px-6 py-2 bg-indigo-600 hover:bg-gray-800 text-white text-lg font-normal flex items-center justify-center rounded-md mt-7"
             whileHover={{ scale: 0.97 }}
             whileTap={{ scale: 0.9 }}
         >
@@ -19,7 +19,7 @@ export const TwitterButton = () => {
         <motion.a
             href="https://twitter.com/samomenx"
             target="_blank"
-            className="px-6 py-2 bg-indigo-900 hover:bg-sky-700 text-white text-lg font-normal flex items-center justify-center rounded-md mt-7"
+            className="px-6 py-2 bg-indigo-600 hover:bg-sky-700 text-white text-lg font-normal flex items-center justify-center rounded-md mt-7"
             whileHover={{ scale: 0.97 }}
             whileTap={{ scale: 0.9 }}
         >
@@ -33,7 +33,7 @@ export const MailButton = () => {
         <motion.a
             href="mailto:uwu@red-panda.ninja"
             target="_blank"
-            className="px-6 py-2 bg-indigo-900 hover:bg-purple-400 text-white text-lg font-normal flex items-center justify-center rounded-md mt-7"
+            className="px-6 py-2 bg-indigo-600 hover:bg-purple-400 text-white text-lg font-normal flex items-center justify-center rounded-md mt-7"
             whileHover={{ scale: 0.97 }}
             whileTap={{ scale: 0.9 }}
         >
@@ -48,7 +48,7 @@ export const PrivacyGuideX = () => {
         <motion.a
             href="https://privacy.red-panda.ninja/docs/intro"
             target="_blank"
-            className="px-6 py-2 bg-indigo-900 hover:bg-blue-800 text-white text-lg font-normal flex items-center justify-center rounded-md mt-7"
+            className="px-6 py-2 bg-indigo-600 hover:bg-blue-800 text-white text-lg font-normal flex items-center justify-center rounded-md mt-7"
             whileHover={{ scale: 0.97 }}
             whileTap={{ scale: 0.9 }}
         >
