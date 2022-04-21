@@ -6,6 +6,7 @@ import {
     AiOutlineTwitter,
     AiOutlineReddit,
     AiOutlineMail,
+    AiOutlineLinkedin,
 } from 'react-icons/ai';
 
 import { 
@@ -74,6 +75,13 @@ const Home: NextPage = ({ body }: any) => {
                         rel="noreferrer"
                     >
                         <AiOutlineGithub className="w-8 h-8"/>
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/samomen/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <AiOutlineLinkedin className="w-8 h-8"/>
                     </a>
                     <a
                         href="https://twitter.com/SamomenX"
