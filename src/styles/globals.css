@@ -9,13 +9,10 @@ html{
 
 }
 body{
-  margin: 0;
 	box-sizing: border-box;
 
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-
-	min-height: 100%;
 
 	@apply bg-gradient-to-tr dark:from-gray-900 dark:to-black dark:text-neutral-100;
 
