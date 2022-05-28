@@ -9,12 +9,7 @@ import {
     AiOutlineLinkedin,
 } from 'react-icons/ai';
 
-import { 
-    GitHubButton,
-    TwitterButton,
-    MailButton,
-    PrivacyGuideX 
-} from "../components/Button";
+import Spotify from "../components/Spotify";
 import { useState, useEffect } from "react";
 
 //thx github.com/alii and /cnrad
@@ -36,7 +31,6 @@ const Home: NextPage = ({ body }: any) => {
             setData(newBody.data);
         }, 4000);
     }, []);
-    console.log(data);
     
     return (
         <>
@@ -68,6 +62,7 @@ const Home: NextPage = ({ body }: any) => {
                             
                         </div>
                     </div>
+                    <Spotify />
                     <div className="mt-3 w-full flex flex-row items-center justify-center h-[rem] gap-4 ">
                     <a
                         href="https://github.com/SamomenX"
@@ -105,6 +100,7 @@ const Home: NextPage = ({ body }: any) => {
                         <AiOutlineMail className="w-8 h-8"/>
                     </a>
                     </div>
+                    
                 </div>
            </div>
         </>
